@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(28, 26, 26);
+    color: rgb(255, 208, 0);
+    font-family: "Times New Roman", Times, serif;
+    border: 3px solid rgb(37, 35, 35);
+}
+
+.container {
+    width: 350px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0.7rem 0.8rem 0.8rem 0.8rem;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 9px 0 0 0;
+    padding-left: 1rem;
+}
+h2 {
+    margin-bottom: 0;
+    color: white;
+    border-bottom: 1px solid rgb(255, 208, 0);
+}
+
+.site {
+    margin: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+.btn-container {
+    display:flex;
+}
+
+#blockBtn {
+    margin: auto;
+    width: 5rem;
+    height: 2rem;
+    box-shadow: 6px 6px 0 0 rgb(255, 208, 0);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(255, 208, 0);
+    border: 1px solid black;
+}
+
+.btn-container>.onClick{
+    box-shadow: 0px 3px 0 0 rgb(255, 208, 0) !important;
+  }
+
+.error {
+    padding-top: 4px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.error>p {
+    font-size: 12px;
+    font-weight: bold;
+    background-color: red;
+    padding: 2px 0px;
+    text-align: center;
+    color: rgb(28, 26, 26);
+}
